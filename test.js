@@ -9,7 +9,7 @@ describe('plus', function() {
   });
   
   it('should work', function() {
-	    expect(plus(5, 2)).toBe(7);
+	    expect(plus(5, 4)).toBe(9);
 	  });
 });
 
