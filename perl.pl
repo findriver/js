@@ -53,3 +53,4 @@ while (<STDIN>) {
 	print STDERR "new>>$newStr";
     }
     print;
+}
