@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Chrome 37.0.2062 (Windows 8.1)" package="" timestamp="2014-10-06T15:09:51" id="0" hostname="River" tests="3" errors="0" failures="0" time="0.003">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36"/>
+    </properties>
+    <testcase name="should pass" time="0.002" classname="Chrome 37.0.2062 (Windows 8.1).plus"/>
+    <testcase name="should work" time="0.001" classname="Chrome 37.0.2062 (Windows 8.1).plus"/>
+    <testcase name="should work" time="0" classname="Chrome 37.0.2062 (Windows 8.1).plus"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
