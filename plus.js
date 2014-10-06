@@ -1,5 +1,5 @@
 // Some code under test
-function plus(a,r) {
-  return a +r;
+function plus(a,f) {
+  return a +f;
 }
 
