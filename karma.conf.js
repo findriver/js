@@ -31,7 +31,7 @@ module.exports = function(config) {
 
     junitReporter: {
       // will be resolved to basePath (in the same way as files/exclude patterns)
-      outputFile: 'js/test-results.xml'
+      outputFile: 'test-results.xml'
 	  	  
     },
 
