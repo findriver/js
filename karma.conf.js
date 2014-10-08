@@ -16,7 +16,7 @@ module.exports = function(config) {
     ],
 
     preprocessors: [
-    	'js/*.js":"coverage' 
+    	'*.js":"coverage' 
     ],
     
     coverageReporter:{
