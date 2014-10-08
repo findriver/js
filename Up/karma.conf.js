@@ -1,13 +1,13 @@
 module.exports = function(config) {
   config.set({
     // base path, that will be used to resolve files and exclude
-    basePath: '.',
+    basePath: '..',
 
     frameworks: ['jasmine'],
 
     // list of files / patterns to load in the browser
     files: [
-      '*.js'
+      '../*.js'
     ],
 
     // list of files to exclude
@@ -16,7 +16,7 @@ module.exports = function(config) {
     ],
 
     preprocessors: [
-    	'*.js":"coverage' 
+    	'../*.js":"coverage' 
     ],
     
     coverageReporter:{
@@ -31,7 +31,7 @@ module.exports = function(config) {
 
     junitReporter: {
       // will be resolved to basePath (in the same way as files/exclude patterns)
-      outputFile: 'test-results.xml'
+      outputFile: '../test-results.xml'
 	  	  
     },
 
@@ -81,8 +81,8 @@ module.exports = function(config) {
       'karma-jasmine',
 	  'karma-junit-reporter', 
 	  'karma-chrome-launcher',
-	  'karma-coverage',
-	  'karma-phantomjs-launcher'
+	  'karma-phantomjs-launcher',
+	  'karma-coverage' 
       
 	  ]
   });
