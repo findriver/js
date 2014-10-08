@@ -1,4 +1,4 @@
- $ perl hello.pl
+ perl hello.pl
  What is your name? Brian
  Hello, Brian cool~
  !
