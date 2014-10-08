@@ -7,4 +7,4 @@ git log |
   tr '\n' '-' | sed 's/.$//' >> buildname                   #use - as delimiter, delete last dash, save to file
 
 #run karma test
-karma start karma.conf.js
+karma start jobs/Test101/workspace/up/karma.conf.js
