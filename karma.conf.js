@@ -7,7 +7,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'js/*.js'
+      '*.js'
     ],
 
     // list of files to exclude
@@ -31,7 +31,7 @@ module.exports = function(config) {
 
     junitReporter: {
       // will be resolved to basePath (in the same way as files/exclude patterns)
-      outputFile: 'test-results.xml'
+      outputFile: 'js/test-results.xml'
 	  	  
     },
 
