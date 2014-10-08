@@ -82,7 +82,7 @@ module.exports = function(config) {
 	  'karma-junit-reporter', 
 	  'karma-chrome-launcher',
 	  'karma-coverage' 
-	  'karma-PhantomJS-launcher'
+	  'karma-phantomJS-launcher'
       
 	  ]
   });
