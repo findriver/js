@@ -2,7 +2,7 @@
 	<HEAD>
 		<Title> Login/SignUp </Title>
 	<BODY>
-		name = "login" align="right" action="LogIn.php" method="POST" >
+		<FORM name = "login" align="right" action="LogIn.php" method="POST" >
 			<BR> Your Email&nbsp;:
 			<INPUT type="text" name="email" size="20">&nbsp;&nbsp;&nbsp;
 			Password&nbsp;:
